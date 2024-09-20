@@ -1,6 +1,6 @@
-package Services;
+package kennyboateng.GestioneEventi_02.Services;
 
-import Repositories.UtenteRepository;
+import kennyboateng.GestioneEventi_02.Repositories.UtenteRepository;
 import kennyboateng.GestioneEventi_02.Entities.Utente;
 import kennyboateng.GestioneEventi_02.Excepitions.NotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;

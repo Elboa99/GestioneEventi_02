@@ -1,13 +1,12 @@
-package Services;
+package kennyboateng.GestioneEventi_02.Services;
 
-import Repositories.PrenotazioneRepository;
+import kennyboateng.GestioneEventi_02.Repositories.PrenotazioneRepository;
 import kennyboateng.GestioneEventi_02.Entities.Prenotazione;
 import kennyboateng.GestioneEventi_02.Excepitions.NotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class PrenotazioneService {
